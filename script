@@ -1,0 +1,168 @@
+/*** FIX JQUERY LOADING TIME (Copy Script Only) ***/
+
+<head>
+            <meta charset="<?php bloginfo( 'charset' ); ?>">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="profile" href="http://gmpg.org/xfn/11">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+ 
+            <?php wp_head(); ?>
+</head>
+
+<style>
+
+@media screen and (max-width: 37.5em) { 
+.main-navigation ul { 
+display:block; 
+} }
+
+
+@media screen and (max-width: 768px) {
+ 
+#site-navigation > div {
+    height: 40px;
+}}
+
+
+header.entry-header {
+display: none;
+}
+
+footer.entry-footer {
+display:none!important;
+}
+
+.site-info {
+display:none!important;
+}
+
+p.site-title {
+display: none;
+}
+
+.entry-content {
+margin: 0px;
+}
+ 
+ 
+ .menu-toggle, .main-navigation.toggled ul {
+    display: none!important;
+}
+
+
+.fixedwidthrow {
+ 
+max-width: 1240px;
+margin: 0 auto;
+}
+
+*******************************
+
+header.entry-header {
+display: none;
+}
+ 
+footer.entry-footer {
+display:none!important;
+}
+ 
+.site-info {
+display:none!important;
+}
+ 
+p.site-title {
+display: none;
+}
+ 
+.entry-content {
+margin: 0px;
+}
+ 
+/* Undescores Overwrites */
+ 
+.menu-toggle, .main-navigation.toggled ul {
+    display: none!important;
+}
+ 
+@media screen and (max-width: 768px) {
+#site-navigation > div {
+    height: 40px;
+}}
+ 
+@media screen and (max-width: 37.5em) {
+.main-navigation ul {
+display:block;
+} }
+ 
+/* Site Width */
+ 
+.fullwidthrow {
+max-width: 1240px;
+margin: 0 auto;
+}
+ 
+/* Menu */
+ 
+nav#site-navigation {
+    margin-top: -115px;
+}
+ 
+/* Logo */
+ 
+.site-branding {
+    margin: 20px 20px 10px 30px;
+ 
+}
+ 
+/* Cards Style */
+ 
+.panel {
+    color: #3e3e3e;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 20px;
+            box-shadow: none;
+}
+ 
+.panel .vc_column-inner {
+    box-shadow: 0 2px 4px rgba(0,0,0,.18);
+}
+ 
+/* Mobile Menu */
+ 
+ul#mega-menu-menu-1 {
+    z-index: 10000;
+    top: 40px!important;
+    height: 285px;
+}
+ 
+.main-navigation {
+  padding-left: 33px;
+}
+ 
+#mega-menu-wrap-menu-1 .mega-menu-toggle {
+    margin-top: 75px;
+}
+ 
+@media (max-width: 400px) {
+  .site-branding {
+    margin-left: 120px;
+  }}
+ 
+div#mega-toggle-block-1 {
+    margin-top: -20px;
+}
+ 
+header#masthead {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+***************************
+
+</style>
+
+
+
