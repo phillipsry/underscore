@@ -1,0 +1,36 @@
+/*** UNDERSCORE_S THEME OVERWRITES ***/
+
+footer#colophon {
+    display: none;
+}
+
+h1.entry-title {
+    display: none;
+}
+
+footer.entry-footer {
+    display: none;
+}
+
+.hentry {
+    margin: 0em!important;
+}
+
+aside#secondary {
+    display: none!important;
+}
+
+.menu-toggle, .main-navigation.toggled ul {
+    display: none!important;
+}
+
+@media screen and (max-width: 768px) {
+ 
+#site-navigation > div {
+    height: 40px;
+}}
+
+@media screen and (max-width: 37.5em) { 
+.main-navigation ul { 
+display:block; 
+} }
